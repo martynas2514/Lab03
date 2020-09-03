@@ -1,3 +1,12 @@
+#' Finds the greatest common divisor of two numbers
+#'
+#' @param value1 A number.
+#' @param value2 A number.
+#' @return  Greatest common divisor.
+#' @examples
+#' euclidean(123612, 13892347912)
+#' euclidean(100, 1000)
+
 euclidean <- function(value1, value2){
   
   stopifnot(is.numeric(value1) && length(value1) == 1 && value1 > 0)
