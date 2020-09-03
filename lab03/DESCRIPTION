@@ -3,7 +3,7 @@ Type: Package
 Title: Euclidean and Dijkstra algorithms 
 Version: 1.0
 Date: 2020-09-03
-Author: Martynas Lukosevicius & Alejandro 
+Author: Martynas Lukosevicius & Alejo Perez 
 Maintainer: Martynas Lukosevicius <martynas2514@gmail.com>
 Description: Euclidian algorithm: finds the greatest common divisor of two numbers Djikstra algorithm: calculates the shortest path from the initial node to every other node in the graph
 License: What license is it under? ????
