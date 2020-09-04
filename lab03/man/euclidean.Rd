@@ -15,7 +15,7 @@ euclidean(value1, value2)
 Greatest common divisor.
 }
 \description{
-Finds the greatest common divisor of two numbers
+\code{euclidean}
 }
 \examples{
 euclidean(123612, 13892347912)
