@@ -3,7 +3,7 @@
 \docType{data}
 \name{wiki_graph}
 \alias{wiki_graph}
-\title{18 edges from node 1 to node 2 and weights .}
+\title{18 edges(v1 -v2 ) and weights .}
 \format{
 A data frame with 18 rows and 3 variables:
 \describe{
@@ -20,6 +20,6 @@ A data frame with 18 rows and 3 variables:
 wiki_graph
 }
 \description{
-A dataset containing 18 edegs and weights.
+A dataset containing 18 edges and weights.
 }
 \keyword{datasets}

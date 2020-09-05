@@ -21,6 +21,7 @@ dijkstra <- function(graph, init_node){
   
   #assertions
   stopifnot(is.data.frame(graph) && ncol(graph) == 3)
+  stopifnot(colnames(graph) == c("v1","v2","w"))
   stopifnot(is.numeric(graph[[1]]) && is.numeric(graph[[2]]))
   stopifnot(is.numeric(init_node) && length(init_node) == 1 && is.element(init_node, graph[[1]]))
   
