@@ -11,7 +11,7 @@ Lab deadline: 15 September 23:59
 Task | Assigned | Status
 ------------ | --------|-----
 1.1.1 | Martynas & Alejo | Working on
-1.1.2 | Martynas | Working on
+1.1.2 | Martynas | Done
 1.2.1 | Martynas | Done
 1.2.2 | Alejo | Not started
 1.2.3 | Alejo | Not started
