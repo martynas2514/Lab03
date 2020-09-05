@@ -9,3 +9,6 @@ Description: Euclidian algorithm: finds the greatest common divisor of two numbe
 License: What license is it under? ????
 RoxygenNote: 7.1.1
 Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
