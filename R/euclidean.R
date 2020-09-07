@@ -11,18 +11,28 @@
 
 euclidean <- function(value1, value2){
   
-  stopifnot(is.numeric(value1) && length(value1) == 1 )
-  stopifnot(is.numeric(value2) && length(value2) == 1 )
+  stopifnot(is.numeric(value1) && length(value1) == 1 && value1 >= 0) 
+  stopifnot(is.numeric(value2) && length(value2) == 1 && value2 >= 0)
   
-  value1 <- abs(value1)
-  value2 <- abs(value2)
+  if (value1==0 && value2==0){
+    res <- 0
+  }
+  else if (value1 == 0 && value2 != 0){
+    res <- value2
+  }
+  else if (value1 != 0 && value2 == 0){
+    res <- value1
+  }
   
-  while(value1 != value2){
+  else {while(value1 != value2){
     if(value1 > value2){
       value1 <- value1 - value2
-    } else {
+    } 
+    else {
       value2 <- value2 - value1
     }
   }
+  }
   return(value1)
 }
+
