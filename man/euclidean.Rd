@@ -18,8 +18,7 @@ Greatest common divisor.
 Finds the greatest common divisor of two numbers
 }
 \details{
-\code{euclidean}
-## Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
+Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
 }
 \examples{
 euclidean(123612, 13892347912)
