@@ -15,9 +15,6 @@ euclidean(value1, value2)
 It will return the greatest common divisor between value 1 and value 2. An integer will be returned.
 }
 \description{
-Euclidean function, finds the greatest common divisor of two numbers
-}
-\details{
 Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
 }
 \examples{
