@@ -11,6 +11,7 @@
 #'           w=c(7,9,14,7,10,15,9,10,11,2,15,11,6,6,9,14,2,9))
 #' dijkstra(wiki_graph, 1)
 #' dijkstra(wiki_graph, 3)
+#' 
 #' @description 
 #' Euclidean function, finds the greatest common divisor of two numbers. Find Wikipedia docs \href{http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}{Here}.
 #' @export
