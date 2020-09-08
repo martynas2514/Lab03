@@ -8,7 +8,7 @@
 #' euclidean(100, 1000)
 #' 
 #' @description 
-#' Euclidean function, finds the greatest common divisor of two numbers. Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
+#' Euclidean function, finds the greatest common divisor of two numbers. Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}.
 #' @export
 
 euclidean <- function(value1, value2){
