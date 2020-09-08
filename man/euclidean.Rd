@@ -3,8 +3,8 @@
 \name{euclidean}
 \alias{euclidean}
 \title{Finds the greatest common divisor of two numbers
-See the Wikipedia documentation \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
-\code{euclidean}}
+\code{euclidean}
+See the Wikipedia documentation \href{https://en.wikipedia.org/wiki/Euclidean}{Here}}
 \usage{
 euclidean(value1, value2)
 }
@@ -18,8 +18,8 @@ Greatest common divisor.
 }
 \description{
 Finds the greatest common divisor of two numbers
-See the Wikipedia documentation \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
 \code{euclidean}
+See the Wikipedia documentation \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
 }
 \examples{
 euclidean(123612, 13892347912)
