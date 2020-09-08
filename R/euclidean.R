@@ -1,5 +1,5 @@
 #'
-#' \code{euclidean} Function, finds the greatest common divisor of two numbers
+#' Euclidean function, finds the greatest common divisor of two numbers
 #' @details
 #' Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
 #' @param value1 An integer number.

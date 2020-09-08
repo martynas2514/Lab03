@@ -2,7 +2,7 @@
 % Please edit documentation in R/euclidean.R
 \name{euclidean}
 \alias{euclidean}
-\title{Finds the greatest common divisor of two numbers}
+\title{Euclidean function, finds the greatest common divisor of two numbers}
 \usage{
 euclidean(value1, value2)
 }
@@ -15,7 +15,7 @@ euclidean(value1, value2)
 Greatest common divisor - An integer
 }
 \description{
-\code{euclidean}
+Euclidean function, finds the greatest common divisor of two numbers
 }
 \details{
 Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
