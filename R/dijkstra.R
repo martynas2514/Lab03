@@ -3,6 +3,8 @@
 #' @param graph graph with 3 rows of nodes and edges.
 #' @param init_node initial node (scalar).
 #' @return  vector of distances
+#' @details 
+#' Euclidean function, finds the greatest common divisor of two numbers. Find Wikipedia docs \href{http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}{Here}.
 #' @examples
 #' wiki_graph <-
 #'  data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
@@ -11,7 +13,6 @@
 #' dijkstra(wiki_graph, 1)
 #' dijkstra(wiki_graph, 3)
 #' 
-#' @description ... Euclidean function, finds the greatest common divisor of two numbers. Find Wikipedia docs \href{http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}{Here}.
 #' @export
 
 
