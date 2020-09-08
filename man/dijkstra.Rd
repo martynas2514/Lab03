@@ -7,15 +7,15 @@
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{graph}{graph with 3 rows of nodes and edges.}
+\item{graph}{Data.frame object with three variables (v1, v2 and w) that contains the edges of the graph (from v1 to v2) with the weight of the edge (w)}
 
-\item{init_node}{initial node (scalar).}
+\item{init_node}{initial node (must be a scalar number).}
 }
 \value{
 vector of distances
 }
 \description{
-Euclidean function, finds the greatest common divisor of two numbers. Find Wikipedia docs \href{https://cutt.ly/SfE5Er1}{Here}.
+The algorithm takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph. Find Wikipedia docs \href{https://cutt.ly/SfE5Er1}{Here}.
 }
 \examples{
 wiki_graph <-
