@@ -16,6 +16,8 @@ Greatest common divisor.
 }
 \description{
 \code{euclidean}
+}
+\details{
 ## Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
 }
 \examples{
