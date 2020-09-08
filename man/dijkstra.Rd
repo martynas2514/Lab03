@@ -15,6 +15,9 @@ dijkstra(graph, init_node)
 vector of distances
 }
 \description{
+Dijkstra's algorithm, finds shortest distance to other nodes
+}
+\details{
 
 }
 \examples{
