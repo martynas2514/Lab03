@@ -5,7 +5,6 @@
 #' @param value2 A number.
 #' @return  Greatest common divisor.
 #' @examples
-
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)
 #' @export
