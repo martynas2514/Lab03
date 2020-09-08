@@ -1,6 +1,5 @@
-#' Dijksta's algorithm 
-#'
-#'\code{dijkstra} finds shortest distance to other nodes
+#' Dijkstra's algorithm, finds shortest distance to other nodes
+#' 
 #' @param graph graph with 3 rows of nodes and edges.
 #' @param init_node initial node (scalar).
 #' @return  vector of distances
