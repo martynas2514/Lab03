@@ -15,9 +15,10 @@ euclidean(value1, value2)
 Greatest common divisor.
 }
 \description{
-\code{euclidean}
+Finds the greatest common divisor of two numbers
 }
 \details{
+\code{euclidean}
 ## Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
 }
 \examples{
