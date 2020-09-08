@@ -2,8 +2,8 @@
 % Please edit documentation in R/euclidean.R
 \name{euclidean}
 \alias{euclidean}
-\title{Finds the greatest common divisor of two numbers
-\code{euclidean}
+\title{\title{Euclidean} 
+Finds the greatest common divisor of two numbers
 See the Wikipedia documentation \href{https://en.wikipedia.org/wiki/Euclidean}{Here}}
 \usage{
 euclidean(value1, value2)
@@ -17,8 +17,8 @@ euclidean(value1, value2)
 Greatest common divisor.
 }
 \description{
+\title{Euclidean} 
 Finds the greatest common divisor of two numbers
-\code{euclidean}
 See the Wikipedia documentation \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
 }
 \examples{
