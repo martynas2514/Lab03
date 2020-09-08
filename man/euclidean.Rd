@@ -15,7 +15,7 @@ euclidean(value1, value2)
 Greatest common divisor.
 }
 \description{
-\url {https://en.wikipedia.org/wiki/Euclidean}
+\url{https://en.wikipedia.org/wiki/Euclidean}
 \code{euclidean}
 }
 \examples{

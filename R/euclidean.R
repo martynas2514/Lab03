@@ -1,6 +1,5 @@
 #' Finds the greatest common divisor of two numbers
-#'
-#' \url{https://en.wikipedia.org/wiki/Euclidean}
+#' See the Wikipedia documentation \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
 #' \code{euclidean}
 #' @param value1 A number.
 #' @param value2 A number.
