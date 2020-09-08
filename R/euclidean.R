@@ -1,14 +1,14 @@
-#'
 #' Euclidean function, finds the greatest common divisor of two numbers
-#' @details
-#' Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
+#' 
 #' @param value1 An integer number.
 #' @param value2 An integer number.
 #' @return  Greatest common divisor - An integer
 #' @examples
-
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)
+#' 
+#' @details
+#' Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
 #' @export
 
 euclidean <- function(value1, value2){
