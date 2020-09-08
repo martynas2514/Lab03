@@ -7,12 +7,12 @@
 euclidean(value1, value2)
 }
 \arguments{
-\item{value1}{An integer number.}
+\item{value1}{An integer number must be introduced}
 
-\item{value2}{An integer number.}
+\item{value2}{An integer number must be introduced}
 }
 \value{
-Greatest common divisor - An integer
+It will return the greatest common divisor between value 1 and value 2. An integer will be returned.
 }
 \description{
 Euclidean function, finds the greatest common divisor of two numbers
