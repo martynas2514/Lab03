@@ -3,7 +3,7 @@
 #' @param graph graph with 3 rows of nodes and edges.
 #' @param init_node initial node (scalar).
 #' @return  vector of distances
-#' @details 
+#' @description  
 #' Euclidean function, finds the greatest common divisor of two numbers. Find Wikipedia docs \href{https://cutt.ly/SfE5Er1}{Here}.
 #' @examples
 #' wiki_graph <-
