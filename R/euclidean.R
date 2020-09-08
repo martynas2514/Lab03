@@ -1,8 +1,8 @@
 #' Euclidean function, finds the greatest common divisor of two numbers
 #' 
-#' @param value1 An integer number.
-#' @param value2 An integer number.
-#' @return  Greatest common divisor - An integer
+#' @param value1 An integer number must be introduced
+#' @param value2 An integer number must be introduced
+#' @return  It will return the greatest common divisor between value 1 and value 2. An integer will be returned.
 #' @examples
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)
