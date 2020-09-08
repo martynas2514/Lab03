@@ -7,7 +7,7 @@
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)
 #' 
-#' @details
+#' @description 
 #' Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
 #' @export
 
