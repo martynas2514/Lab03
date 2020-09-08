@@ -23,4 +23,5 @@ Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
 \examples{
 euclidean(123612, 13892347912)
 euclidean(100, 1000)
+
 }
