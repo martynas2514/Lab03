@@ -10,7 +10,7 @@ Lab deadline: 15 September 23:59
 
 Task | Assigned | Status
 ------------ | --------|-----
-1.1.1 | Martynas & Alejo | Working on, test fails - input cant be 0, also need to add link to wiki of alhorithm
+1.1.1 | Martynas & Alejo | Working on, test fails - input cant be 0, also need to add link to wiki of algorithm | Done
 1.1.2 | Martynas | Done
 1.2.1 | Martynas | Done - Roxygen link to wiki doesnt work(dijkstra.R)
 1.2.2 | Alejo | Not started (please check why links to wiki doesnt appear in documentation (other links work somehow))

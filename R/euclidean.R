@@ -1,10 +1,12 @@
 #' Finds the greatest common divisor of two numbers
 #'
+#' \url https://en.wikipedia.org/wiki/Euclidean 
 #'\code{euclidean}
 #' @param value1 A number.
 #' @param value2 A number.
 #' @return  Greatest common divisor.
 #' @examples
+
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)
 #' @export
