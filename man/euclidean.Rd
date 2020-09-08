@@ -7,15 +7,15 @@
 euclidean(value1, value2)
 }
 \arguments{
-\item{value1}{A number.}
+\item{value1}{An integer number.}
 
-\item{value2}{A number.}
+\item{value2}{An integer number.}
 }
 \value{
-Greatest common divisor.
+Greatest common divisor - An integer
 }
 \description{
-Finds the greatest common divisor of two numbers
+\code{euclidean}
 }
 \details{
 Find Wikipedia docs \href{https://en.wikipedia.org/wiki/Euclidean}{Here}
