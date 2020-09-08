@@ -1,10 +1,10 @@
 #' Dijkstra's algorithm, finds shortest distance to other nodes
 #' 
-#' @param graph graph with 3 rows of nodes and edges.
-#' @param init_node initial node (scalar).
+#' @param graph Data.frame object with three variables (v1, v2 and w) that contains the edges of the graph (from v1 to v2) with the weight of the edge (w)
+#' @param init_node initial node (must be a scalar number).
 #' @return  vector of distances
 #' @description  
-#' Euclidean function, finds the greatest common divisor of two numbers. Find Wikipedia docs \href{https://cutt.ly/SfE5Er1}{Here}.
+#' The algorithm takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph. Find Wikipedia docs \href{https://cutt.ly/SfE5Er1}{Here}.
 #' @examples
 #' wiki_graph <-
 #'  data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),

@@ -15,9 +15,6 @@ dijkstra(graph, init_node)
 vector of distances
 }
 \description{
-Dijkstra's algorithm, finds shortest distance to other nodes
-}
-\details{
 Euclidean function, finds the greatest common divisor of two numbers. Find Wikipedia docs \href{https://cutt.ly/SfE5Er1}{Here}.
 }
 \examples{
