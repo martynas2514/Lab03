@@ -1,4 +1,4 @@
-#' 18 edges(v1 -v2 ) and weights .
+#' 18 edges(v1 -v2) and weights .
 #'
 #' A dataset containing 18 edges and weights.
 #'
@@ -9,5 +9,5 @@
 #'   \item{w}{weight}
 #'   ...
 #' }
-#' @source \url{http://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm/}
+#' @source \url{https://cutt.ly/SfE5Er1}
 "wiki_graph"
