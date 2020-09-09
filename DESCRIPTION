@@ -3,10 +3,11 @@ Type: Package
 Title: Euclidean and Dijkstra algorithms 
 Version: 1.0
 Date: 2020-09-03
-Author: Martynas Lukosevicius & Alejo Perez 
+Authors@R: c(person("Lukosevicius", "Martynas", email = "martynas2514@gmail.com", role = "cre"),
+             person("Alejo", "Perez", email = "alejperz7@gmail.com", role = "aut")
 Maintainer: Martynas Lukosevicius <martynas2514@gmail.com>
 Description: Euclidian algorithm: finds the greatest common divisor of two numbers Djikstra algorithm: calculates the shortest path from the initial node to every other node in the graph
-License: What license is it under? ????
+License: GPL-2
 RoxygenNote: 7.1.1
 Encoding: UTF-8
 LazyData: true
