@@ -24,13 +24,12 @@ dijkstra <- function(graph, init_node){
   stopifnot(is.numeric(init_node) && length(init_node) == 1 && is.element(init_node, graph[[1]]))
   
   # to make it universal, changing graph nodes to string
-  graphCopy <- graph
-  graphCopy[ ,1] <- ifelse(is.character(graphCopy[ ,1]), graphCopy[ ,1], lapply(graphCopy[1], as.character))
-  graphCopy[ ,2] <- ifelse(is.character(graphCopy[ ,2]), graphCopy[ ,2], lapply(graphCopy[2], as.character))
+  graph[ ,1] <- ifelse(is.character(graph[ ,1]), graph[ ,1], lapply(graph[1], as.character))
+  graph[ ,2] <- ifelse(is.character(graph[ ,2]), graph[ ,2], lapply(graph[2], as.character))
   initNode <- toString(init_node)
   
   # Vector of nodes to check 
-  checkNodeVector <- unique(graphCopy[ ,1])
+  checkNodeVector <- unique(graph[ ,1])
   
   # Vector which holds distances to initial node
   distanceVector<-  rep(Inf, length(checkNodeVector))
@@ -44,7 +43,7 @@ dijkstra <- function(graph, init_node){
     node <- nodeDistanceToCheck[which.min(nodeDistanceToCheck)]
     
     # extracting edges to be checked
-    nodeEdges <- graphCopy[which(graphCopy[ ,1] == names(node)), ]
+    nodeEdges <- graph[which(graph[ ,1] == names(node)), ]
     
     # apply distances to distance vector
     for (i in 1:nrow(nodeEdges)) {
