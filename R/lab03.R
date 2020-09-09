@@ -6,7 +6,8 @@
 #' @section lab03 functions:
 #' The lab functions are named dijkstra and euclidean
 #'
-#' @docType package
 #' @name lab03
+#' @useDynLib lab03
+#' @docType package
 NULL
 #> NULL
