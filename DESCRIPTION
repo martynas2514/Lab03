@@ -1,7 +1,7 @@
 Package: lab03
 Type: Package
 Title: Euclidean and Dijkstra algorithms 
-Version: 0.01description
+Version: 0.01
 Date: 2020-09-03
 Authors@R: c(person("Lukosevicius", "Martynas", email = "martynas2514@gmail.com", role = "cre"),
              person("Alejo", "Perez", email = "alejperz7@gmail.com", role = "aut"))
