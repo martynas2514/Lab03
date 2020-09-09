@@ -9,5 +9,5 @@
 #'   \item{w}{weight}
 #'   ...
 #' }
-#' @source \url{http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm/}
+#' @source \url{http://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm/}
 "wiki_graph"

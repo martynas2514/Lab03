@@ -14,7 +14,7 @@ A data frame with 18 rows and 3 variables:
 }
 }
 \source{
-
+\url{http://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm/}
 }
 \usage{
 wiki_graph
