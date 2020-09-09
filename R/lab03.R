@@ -7,7 +7,6 @@
 #' The lab functions are named dijkstra and euclidean
 #'
 #' @name lab03
-#' @useDynLib lab03
 #' @docType package
 NULL
 #> NULL
