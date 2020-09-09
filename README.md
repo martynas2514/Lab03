@@ -14,9 +14,9 @@ Task | Assigned | Status
 ------------ | --------|-----
 1.1.1 | Martynas & Alejo | Working on, test fails - input cant be 0, also need to add link to wiki of algorithm | Done
 1.1.2 | Martynas | Done
-1.2.1 | Martynas | Done - Roxygen link to wiki doesnt work(dijkstra.R)
-1.2.2 | Alejo | Not started (please check why links to wiki doesnt appear in documentation (other links work somehow))
-1.2.3 | Alejo | Not started
+1.2.1 | Martynas | Done - Roxygen link to wiki doesnt work(dijkstra.R) | Done
+1.2.2 | Alejo | Should We put results in the examples? |
+1.2.3 | Alejo | Not working so far |
 1.2.4 | Martynas | Done - Roxygen link to wiki doesnt work(data.R)
 1.2.5 | Martynas | Done
 1.2.6 | Alejo | Not started
