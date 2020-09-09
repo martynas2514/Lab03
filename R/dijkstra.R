@@ -19,13 +19,13 @@ dijkstra <- function(graph, init_node){
   
   #assertions
   stopifnot(is.data.frame(graph) && ncol(graph) == 3)
-  stopifnot(colnames(graph) == c("v1","v2","w"))
+  stopifnot(colnames(graph) == c("v1", "v2", "w"))
   stopifnot(is.numeric(graph[[1]]) && is.numeric(graph[[2]]))
   stopifnot(is.numeric(init_node) && length(init_node) == 1 && is.element(init_node, graph[[1]]))
   
   # to make it universal, changing graph nodes to string
-  graph[ ,1] <- ifelse(is.character(graph[ ,1]), graph[ ,1], lapply(graph[1], as.character))
-  graph[ ,2] <- ifelse(is.character(graph[ ,2]), graph[ ,2], lapply(graph[2], as.character))
+  graph[ , 1] <- ifelse(is.character(graph[ ,1]), graph[ ,1], lapply(graph[1], as.character))
+  graph[ , 2] <- ifelse(is.character(graph[ ,2]), graph[ ,2], lapply(graph[2], as.character))
   initNode <- toString(init_node)
   
   # Vector of nodes to check 
@@ -39,7 +39,7 @@ dijkstra <- function(graph, init_node){
   distanceVector[initNode] <- 0
   while(length(checkNodeVector) > 0){
     #find node with lowest distance from node to check
-    nodeDistanceToCheck <-distanceVector[names(distanceVector) %in% checkNodeVector]
+    nodeDistanceToCheck <- distanceVector[names(distanceVector) %in% checkNodeVector]
     node <- nodeDistanceToCheck[which.min(nodeDistanceToCheck)]
     
     # extracting edges to be checked
