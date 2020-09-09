@@ -18,5 +18,5 @@ Task | Assigned | Status
 1.2.2 | Alejo | Should We put results in the examples? |
 1.2.3 | Alejo | Not working so far |
 1.2.4 | Martynas | Done - Roxygen link to wiki doesnt work(data.R)
-1.2.5 | Martynas | Done
+1.2.5 | Martynas | Done - We could implement more tests...
 1.2.6 | Alejo | Not started
