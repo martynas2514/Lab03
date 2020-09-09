@@ -1,4 +1,4 @@
-#' 18 edges(v1 -v2) and weights .
+#' 18 edges(v1 -v2) and weights 
 #'
 #' A dataset containing 18 edges and weights.
 #'
