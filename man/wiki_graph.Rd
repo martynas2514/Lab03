@@ -3,7 +3,7 @@
 \docType{data}
 \name{wiki_graph}
 \alias{wiki_graph}
-\title{18 edges(v1 -v2 ) and weights .}
+\title{18 edges(v1 -v2) and weights .}
 \format{
 A data frame with 18 rows and 3 variables:
 \describe{
@@ -14,7 +14,7 @@ A data frame with 18 rows and 3 variables:
 }
 }
 \source{
-\url{http://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm/}
+\url{https://cutt.ly/SfE5Er1}
 }
 \usage{
 wiki_graph
