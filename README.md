@@ -19,4 +19,4 @@ Task | Assigned | Status
 1.2.3 | Martynas | Done
 1.2.4 | Martynas | Done
 1.2.5 | Martynas | Done
-1.2.6 | Alejo | Not started
+1.2.6 | Alejo | Done
